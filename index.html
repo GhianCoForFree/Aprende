@@ -3,14 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style type="text/css">
+		div{
+			border: 1px solid black;
+			height: 100px;
+			width: 100px;
+		}
+	</style>
 	<script type="text/javascript">
 		window.onlodad=animar();
 		function animar(){
-			document.createElement('div').innerHTML="Mostrar"
+			document.createElement('div');
 		}
 	</script>
 </head>
 <body>
-	<<input type="button" onclick="animar()">
+	<input type="button" click="animar()" value="Crear Div">
 </body>
 </html>
